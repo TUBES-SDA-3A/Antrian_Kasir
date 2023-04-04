@@ -8,6 +8,7 @@ Anggota :
 
 #ifndef header_h
 #define header_h
+#define Nil NULL
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
