@@ -47,7 +47,7 @@ typedef struct List_BarangBelian
 
 typedef struct Antrian
 {
-    Pembeli Pembeli;
+    address_P Pembeli;
     address_A next;
 } Antrian;
 
