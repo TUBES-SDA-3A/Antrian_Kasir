@@ -149,8 +149,12 @@ bool isEmpty_Antrian(address_A p)
 
 void Create_Node_Antrian(address_A *headAntrian,address_A *newAntrian, address_P Pembeli)
 {	// check
-	/* I.S : node antrian belum ada/belum dibuat
-	   F.S : mengalokasikan node antrian
+	/* I.S : - headAntrian: pointer menuju node pertama dari list antrian
+			 - newAntrian: pointer untuk menunjuk pada node baru yang akan dibuat
+			 - Pembeli: pointer menuju pada node pembeli
+	   F.S : Jika newAntrian berhasil dialokasikan, maka newAntrian akan menjadi node baru pada list antrian yang menunjuk ke Pembeli.
+			 Jika headAntrian masih kosong, maka headAntrian akan menunjuk ke newAntrian.
+			 Jika headAntrian tidak kosong, maka newAntrian akan ditambahkan pada akhir list antrian.
 	*/
 
 	address_A transA;
